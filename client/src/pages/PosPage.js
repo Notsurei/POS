@@ -29,7 +29,7 @@ function POSPage() {
   const fetchProducts = async (page) => {
     setIsLoading(true);
     try {
-      const res = await axios.get('http://35.173.129.69:8080/api/v1/product/business', {
+      const res = await axios.get('http://group07.alberthy.com:8080/api/v1/product/business', {
         params: {
           page: page,
           size: size
