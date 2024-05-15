@@ -13,7 +13,7 @@ export default function Bill() {
   useEffect(() => {
     const fetchOrders = async () => {
       try {
-        const res = await axios.get('http://35.173.129.69:8080/api/v1/order/myOrders', {
+        const res = await axios.get('http://group07.alberthy.com:8080/api/v1/order/myOrders', {
           headers: {
             'Content-type': 'application/json',
             ...authHeader()
