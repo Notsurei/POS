@@ -20,7 +20,7 @@ export default function Login() {
 
   const SendRequest = async () => {
     try {
-      const res = await axios.post('http://35.173.129.69:8080/api/v1/auth/login', {
+      const res = await axios.post('http://group07.alberthy.com:8080/api/v1/auth/login', {
         userEmail: input.userEmail,
         password: input.password,
       });
